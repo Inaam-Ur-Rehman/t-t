@@ -152,8 +152,13 @@
       "role": "Creative Director"
     },
     {
+<<<<<<< HEAD
       "name": "Monica “Mon” Przyborowski",
       "image": "/mon.png",
+=======
+      "name": "Sara Trinajstić",
+      "image": "/sara.jpeg",
+>>>>>>> 838e655 (Updated Name)
       "role": "Head of Marketing"
     },
     {

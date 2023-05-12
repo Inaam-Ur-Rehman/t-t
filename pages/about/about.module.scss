@@ -85,16 +85,39 @@
       gap: 1rem;
       text-align: center;
       max-width: 250px;
+<<<<<<< HEAD
       & > div:nth-child(1) {
+=======
+      & > div:nth-child(1){
+        border: 4px solid $secondary-color !important;
+        border-radius: 50%;
+        object-fit: cover;
+        overflow: hidden;
+      }
+
+      & > div:nth-child(1) >div{
+>>>>>>> 838e655 (Updated Name)
         position: relative;
         display: flex;
         align-items: center;
         justify-content: center;
+<<<<<<< HEAD
         border: 1px solid $secondary-color;
         border-radius: 50%;
         width: 250px;
         height: 250px;
         gap: 4rem;
+=======
+        border-radius: 50%;
+        width: 250px;
+        height: 250px;
+        overflow: hidden;
+        gap: 4rem;
+        object-fit: contain;
+        filter: grayscale(90);
+        transform: scale(110%);
+        padding: 0;
+>>>>>>> 838e655 (Updated Name)
       }
       .teamInfo {
         & > p:nth-child(1) {

@@ -71,12 +71,25 @@ const About = () => {
                 }}
                 transition={{ duration: 2 }}
               >
+<<<<<<< HEAD
                 <Image
                   loading='eager'
                   src={done ? member?.image : Logo}
                   alt={'Logo'}
                   fill={done ? true : false}
                 />
+=======
+
+                <div>
+                  <Image
+                      className={styles.imageWrapper}
+                      loading='eager'
+                      src={done ? member?.image : Logo}
+                      alt={'Logo'}
+                      fill={done ? true : false}
+                  />
+                </div>
+>>>>>>> 838e655 (Updated Name)
               </motion.div>
               <div className={styles.teamInfo}>
                 <p>{member?.name}</p>
